@@ -1,0 +1,13 @@
+<html>
+    <img id="logo" src="image/logo.png" alt="logo sibermu" width="100">
+    <script>
+        const logo = document.getElementById("logo")
+        const attributes = logo.attributes
+
+        for (let attribute of attributes){
+            document.writeln("<pre>")
+            document.writeln(`${attribute.name} : ${attribute.value}`)
+            document.writeln("</pre>")
+        }
+    </script>
+</html>
