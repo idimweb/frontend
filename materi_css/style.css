@@ -1,0 +1,31 @@
+h1 {
+  background-color: rgb(43, 255, 0);
+}
+
+h2 {
+  background-color: rgb(181, 226, 246);
+}
+
+#warnakhusus {
+  background-color: rgb(255, 127, 172);
+}
+
+.warnakhusus {
+  background-color: rgb(148, 255, 127);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+div p {
+  color: rgb(77, 6, 229);
+}
+
+div > p {
+  background-color: bisque;
+}
+
+div + p {
+  background-color: rgb(249, 20, 20);
+}
