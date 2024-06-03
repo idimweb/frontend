@@ -1,11 +1,12 @@
 <html>
-    <img id="logo" src="image/logo.png" alt="sibermu logo" width="100px">
-    <script>
-        const logo = document.getElementById("logo")
-        const src = logo.getAttributeNode("src")
-        document.writeln("<pre>")
-        document.writeln(src.name)
-        document.writeln(src.value)
-        document.writeln("<pre>")
-    </script>
+  <img id="logo" src="image/logo.png" alt="sibermu logo" width="100px" />
+  <script>
+    const logo = document.getElementById("logo");
+    const src = logo.getAttributeNode("src"); //Node berisi object
+    document.writeln("<pre>");
+    document.writeln(src);
+    document.writeln(src.name);
+    document.writeln(src.value);
+    document.writeln("<pre>");
+  </script>
 </html>

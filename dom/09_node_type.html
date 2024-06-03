@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-   Prodi Sistem Informasi sibermu
-
-   <script>
-    const nodes = document.body.childNodes
-    nodes.forEach(node => {
-        document.writeln(`${node} : ${node.nodeType}`)
-    }
-    )
-   </script>
-</body>
+  </head>
+  <body>
+    Prodi Sistem Informasi sibermu
+    <p></p>
+    <div></div>
+    <script>
+      const nodes = document.body.childNodes;
+      nodes.forEach((node) => {
+        document.writeln("<pre>");
+        document.writeln(`${node} : ${node.nodeType}`);
+        document.writeln("</pre>");
+      });
+    </script>
+  </body>
 </html>
-
-
-
-
